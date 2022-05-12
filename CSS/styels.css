@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&display=swap");
+
 /* --- MAIN ---- */
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   height: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -13,7 +16,9 @@ body {
 }
 
 :root {
-  --white: rgb(227, 227, 227);
+  --blue: #0088a9;
+  --grey: #24252a;
+  --white: #edf0f1;
 }
 
 /* ---- HEADER -- */
@@ -23,23 +28,49 @@ header {
 
 /* ---- NAVBAR ---- */
 nav {
-  background-color: var(--white);
-  margin: 0px;
+  background-color: var(--grey);
   display: flex;
   align-items: center;
-
-  padding-bottom: 2.1rem;
+  justify-content: flex-end;
 }
 
 nav > ul {
-  width: fit-content;
-  margin-top: 1rem;
-  display: flex;
-  background-color: red;
+  display: inline-block;
 }
 
 nav > ul li {
   list-style-type: none;
-  padding-left: 1%;
-  padding-right: 1%;
+  display: inline-block;
+  margin: 1.8rem;
+}
+
+nav > ul li a {
+  color: var(--white);
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+}
+
+nav > ul li a:hover {
+  color: var(--blue);
+}
+
+/* ----SPLASH PAGE---- */
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  margin: 1.5%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../Images/TreesWithSnow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+  border-radius: 25px;
+}
+
+header div > h1 {
+  font-size: 3.5rem;
+  color: var(--white);
 }
