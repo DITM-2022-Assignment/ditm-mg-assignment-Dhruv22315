@@ -1,0 +1,45 @@
+/* --- MAIN ---- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: rgb(227, 227, 227);
+}
+
+/* ---- HEADER -- */
+header {
+  height: auto;
+}
+
+/* ---- NAVBAR ---- */
+nav {
+  background-color: var(--white);
+  margin: 0px;
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 2.1rem;
+}
+
+nav > ul {
+  width: fit-content;
+  margin-top: 1rem;
+  display: flex;
+  background-color: red;
+}
+
+nav > ul li {
+  list-style-type: none;
+  padding-left: 1%;
+  padding-right: 1%;
+}
