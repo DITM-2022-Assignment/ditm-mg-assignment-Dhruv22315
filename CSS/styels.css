@@ -23,54 +23,44 @@ body {
 
 /* ---- HEADER -- */
 header {
-  height: auto;
-}
-
-/* ---- NAVBAR ---- */
-nav {
-  background-color: var(--grey);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../Images/TreesWithSnow.png");
+  width: 95%;
+  margin-left: 2.5%;
+  height: 95vh;
+  margin-top: 2.5vh;
+  border-radius: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  background-position: center;
 }
 
-nav > ul {
-  display: inline-block;
+/* ---- NAV BAR ---- */
+.DHR__navbar {
+  width: 100%;
+  height: 20%;
+  border-radius: 50px 50px 0 0;
 }
 
-nav > ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 1.8rem;
-}
-
-nav > ul li a {
-  color: var(--white);
-  transition: all 0.4s ease 0s;
-  text-decoration: none;
-}
-
-nav > ul li a:hover {
-  color: var(--blue);
-}
-
-/* ----SPLASH PAGE---- */
-header div {
+.DHR__navbar ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 97%;
-  margin: 1.5%;
-  height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../Images/TreesWithSnow.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
-  border-radius: 25px;
 }
 
-header div > h1 {
-  font-size: 3.5rem;
+/* ---- TITLE ---- */
+.DHR__header-h1 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 50px 50px;
+}
+
+.DHR__header-h1 h1 {
+  font-size: 4rem;
   color: var(--white);
 }
