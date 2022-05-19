@@ -42,17 +42,25 @@ header {
   width: 100%;
   height: 20%;
   border-radius: 50px 50px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DHR__navbar img {
+  max-width: 3rem;
+  margin-left: 2rem;
 }
 
 .DHR__navbar ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-right: 2rem;
 }
 
 .DHR__navbar ul li {
   list-style-type: none;
-  margin: 1%;
+  margin: 1rem;
   display: inline-block;
 }
 
