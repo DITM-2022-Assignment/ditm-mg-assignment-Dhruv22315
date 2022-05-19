@@ -25,8 +25,8 @@ body {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../Images/TreesWithSnow.png");
-  width: 95%;
-  margin-left: 2.5%;
+  width: 97%;
+  margin-left: 1.5%;
   height: 95vh;
   margin-top: 2.5vh;
   border-radius: 50px;
@@ -50,6 +50,17 @@ header {
   justify-content: center;
 }
 
+.DHR__navbar ul li {
+  list-style-type: none;
+  margin: 1%;
+  display: inline-block;
+}
+
+.DHR__navbar ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
 /* ---- TITLE ---- */
 .DHR__header-h1 {
   width: 100%;
@@ -63,4 +74,6 @@ header {
 .DHR__header-h1 h1 {
   font-size: 4rem;
   color: var(--white);
+  position: absolute;
+  bottom: 41%;
 }
