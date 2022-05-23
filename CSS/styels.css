@@ -89,5 +89,30 @@ header {
 }
 
 /* ---- Main ---- */
-main .DHR__Main-Hamburger {
+.DHR__Main-Hamburger {
+  margin-top: 3rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.DHR__People-Img {
+  max-width: 48%;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+}
+
+.DHR__People-Text {
+  width: 48%;
+  text-align: center;
+}
+
+.DHR__People-Text h1 {
+  font-size: 3rem;
+}
+
+.DHR__People-Text p {
+  font-size: 1.2rem;
 }
