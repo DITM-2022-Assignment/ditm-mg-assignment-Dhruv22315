@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/866b8b01f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -34,14 +35,18 @@
     <!-- MAIN -->
     <main>
       <!-- Local Land -->
-      <div class="DHR__Main-Hamburger">
+      <div class="DHR__Main-Flex">
+        <!-- GREY -->
+        <img class="DHR__People-Grey1" src="Images/grey.png" alt="Grey Box" />
+        <img class="DHR__People-Grey2" src="Images/grey.png" alt="Grey Box" />
+
         <img
           class="DHR__People-Img"
           src="Images/OldNZ.jpg"
           alt="Picture of people"
         />
         <div class="DHR__People-Text">
-          <h1>Olden Day NZ</h1>
+          <h2>Olden Day NZ</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
             dolorem, veniam autem est sequi natus impedit possimus. Nostrum,
@@ -49,6 +54,18 @@
           </p>
         </div>
       </div>
+
+      <!-- Climate Change -->
+      <div class="DHR__Main-Hamburger">
+        <div class="DHR__Climate-Text">
+          <h2>Cliate Change</h2>
+        </div>
+        <div class="DHR__Climate-Img"></div>
+        <div class="DHR__Cliate-Graphs"></div>
+      </div>
     </main>
+
+    <!-- SCRIPTS -->
+    <script src="JS/data.js"></script>
   </body>
 </html>
