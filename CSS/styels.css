@@ -128,12 +128,12 @@ header {
 }
 
 .DHR__People-Grey1 {
-  top: 25rem;
-  left: 31.5rem;
+  top: 32rem;
+  left: 38rem;
 }
 
 .DHR__People-Grey2 {
-  top: 43rem;
+  top: 50rem;
   left: 5rem;
 }
 
@@ -148,7 +148,6 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../Images/Mountain.jpg");
   background-position: center;
-  margin-bottom: 10rem;
   box-shadow: 0px 1px 10px 0 inset rgb(0 0 0 / 70%),
     0 10px 30px 0 rgb(0 0 0 / 19%);
 }
@@ -171,4 +170,96 @@ header {
   filter: brightness(0.9);
   border-radius: 1rem;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+}
+
+/* --About Us-- */
+.DHR__About {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.DHR__About-Text h2 {
+  font-size: 3rem;
+}
+
+/* --Footer-- */
+.DHR__Footer {
+  padding: 3rem;
+  color: var(--white);
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Footer Column */
+.DHR__Footer-Col {
+  width: 20%;
+}
+
+.DHR__Footer-Col h3 {
+  font-size: 2rem;
+}
+
+.DHR__Footer-Col ul li {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  padding: 0.25rem;
+}
+
+.DHR__Footer-Col ul li:hover {
+  transform: translate(10px, 0px);
+}
+
+.DHR__Footer-Col ul li:hover > a {
+  color: var(--blue);
+}
+
+.DHR__Footer-Col ul li a {
+  color: var(--white);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer Social */
+.DHR__Footer-Social_Links {
+  width: 20%;
+}
+
+.DHR__Footer-Social_Links h3 {
+  font-size: 2rem;
+}
+
+.DHR__Footer-Social_Links ul {
+  display: flex;
+}
+
+.DHR__Footer-Social_Links ul li {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.DHR__Footer-Social_Links ul li:hover {
+  transform: translate(0, -10px);
+}
+
+.DHR__Footer-Social_Links ul li:hover > a {
+  color: var(--blue);
+}
+
+.DHR__Footer-Social_Links ul li a {
+  color: var(--white);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
 }
