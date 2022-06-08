@@ -154,8 +154,8 @@ header {
 }
 
 .DHR__Climate-Text {
-  width: 30%;
-  padding: 1rem;
+  width: 40%;
+  padding: 2rem;
   color: var(--grey);
   background-color: var(--white);
   border-radius: 1rem;
