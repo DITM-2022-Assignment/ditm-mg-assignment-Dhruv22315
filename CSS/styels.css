@@ -28,7 +28,7 @@ header {
     url("../Images/TreesWithSnow.png");
   width: 97%;
   margin-left: 1.5%;
-  height: 70vh;
+  height: 60vh;
   margin-top: 2.5vh;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
   border-radius: 50px;
@@ -85,7 +85,7 @@ header {
   font-size: 4rem;
   color: var(--white);
   position: absolute;
-  bottom: 50%;
+  bottom: 60%;
 }
 
 /* ---- Main ---- */
@@ -128,7 +128,7 @@ header {
 }
 
 .DHR__People-Grey1 {
-  top: 32rem;
+  top: 27rem;
   left: 38rem;
 }
 
@@ -150,6 +150,10 @@ header {
   background-position: center;
   box-shadow: 0px 1px 10px 0 inset rgb(0 0 0 / 70%),
     0 10px 30px 0 rgb(0 0 0 / 19%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .DHR__Climate-Text {
@@ -244,7 +248,7 @@ header {
 
 .DHR__Footer-Social_Links ul li {
   list-style-type: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
