@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&display=swap");
+
+/* --- MAIN ---- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--white);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #0088a9;
+  --grey: #24252a;
+  --white: #edf0f1;
+}
+
+/* ---- HEADER -- */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../Images/TreesWithSnow.png");
+  width: 97%;
+  margin-left: 1.5%;
+  height: 60vh;
+  margin-top: 2.5vh;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+/* ---- NAV BAR ---- */
+.DHR__navbar {
+  width: 100%;
+  height: 20%;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DHR__navbar img {
+  max-width: 3rem;
+  margin-left: 2rem;
+}
+
+.DHR__navbar ul {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.DHR__navbar ul li {
+  list-style-type: none;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.DHR__navbar ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* ---- TITLE ---- */
+.DHR__header-h1 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 50px 50px;
+}
+
+.DHR__header-h1 h1 {
+  font-size: 4rem;
+  color: var(--white);
+  position: absolute;
+  bottom: 60%;
+}
+
+/* ---- Main ---- */
+/* -- People -- */
+.DHR__Main-Flex {
+  margin-top: 3rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.DHR__People-Img {
+  max-width: 48%;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+}
+
+.DHR__People-Text {
+  width: 48%;
+  text-align: center;
+}
+
+.DHR__People-Text h2 {
+  font-size: 3rem;
+}
+
+.DHR__People-Text p {
+  font-size: 1.2rem;
+}
+
+.DHR__People-Grey1,
+.DHR__People-Grey2 {
+  max-width: 200px;
+  border-radius: 2rem;
+  margin: 2px;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+  position: absolute;
+}
+
+.DHR__People-Grey1 {
+  top: 27rem;
+  left: 38rem;
+}
+
+.DHR__People-Grey2 {
+  top: 50rem;
+  left: 5rem;
+}
+
+/* -- Climate Change -- */
+.DHR__Climate {
+  margin-top: 10rem;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Images/Mountain.jpg");
+  background-position: center;
+  box-shadow: 0px 1px 10px 0 inset rgb(0 0 0 / 70%),
+    0 10px 30px 0 rgb(0 0 0 / 19%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.DHR__Climate-Text {
+  width: 40%;
+  padding: 2rem;
+  color: var(--grey);
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+}
+
+.DHR__Climate-Text h2 {
+  font-size: 2.5rem;
+}
+
+.DHR__Climate img {
+  max-width: 40%;
+  filter: brightness(0.9);
+  border-radius: 1rem;
+  box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
+}
+
+/* --About Us-- */
+.DHR__About {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.DHR__About-Text h2 {
+  font-size: 3rem;
+}
+
+/* --Footer-- */
+.DHR__Footer {
+  padding: 3rem;
+  color: var(--white);
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Footer Column */
+.DHR__Footer-Col {
+  width: 20%;
+}
+
+.DHR__Footer-Col h3 {
+  font-size: 2rem;
+}
+
+.DHR__Footer-Col ul li {
+  list-style-type: none;
+  margin-left: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  padding: 0.25rem;
+}
+
+.DHR__Footer-Col ul li:hover {
+  transform: translate(10px, 0px);
+}
+
+.DHR__Footer-Col ul li:hover > a {
+  color: var(--blue);
+}
+
+.DHR__Footer-Col ul li a {
+  color: var(--white);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer Social */
+.DHR__Footer-Social_Links {
+  width: 20%;
+}
+
+.DHR__Footer-Social_Links h3 {
+  font-size: 2rem;
+}
+
+.DHR__Footer-Social_Links ul {
+  display: flex;
+}
+
+.DHR__Footer-Social_Links ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.DHR__Footer-Social_Links ul li:hover {
+  transform: translate(0, -10px);
+}
+
+.DHR__Footer-Social_Links ul li:hover > a {
+  color: var(--blue);
+}
+
+.DHR__Footer-Social_Links ul li a {
+  color: var(--white);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+}
