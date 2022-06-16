@@ -25,10 +25,10 @@ body {
 /* ---- HEADER -- */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../Images/Mountain.jpg");
+    url("../../Images/Mountain2.jpg");
   width: 97%;
   margin-left: 1.5%;
-  height: 70vh;
+  height: 60vh;
   margin-top: 2.5vh;
   box-shadow: 0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 30px 0 rgb(0 0 0 / 19%);
   border-radius: 50px;
@@ -85,5 +85,5 @@ header {
   font-size: 4rem;
   color: var(--white);
   position: absolute;
-  bottom: 50%;
+  bottom: 60%;
 }
